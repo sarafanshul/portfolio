@@ -25,6 +25,14 @@ export default function() {
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
+
+  ScrollReveal().reveal('.hero-subtitle', 
+    assignProps(
+      { 
+        delay: 500, 
+        origin: window.innerWidth > 768 ? 'left' : 'bottom'
+      }, defaultProps)
+  );
   
   ScrollReveal().reveal('.hero-cta', 
     assignProps(
