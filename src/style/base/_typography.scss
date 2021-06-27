@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
+$selection-bg: #D7624E;
+
 h1 {
   font-weight: 700;
+  &::selection {
+    background: $selection-bg;
+    color: white;
+  }
 }
 
 p,
 a {
   font-family: 'Montserrat', sans-serif;
   font-size: $default-font-size;
+  &::selection {
+    background:white ;
+    color: $selection-bg;
+  }
 }
 
 a,

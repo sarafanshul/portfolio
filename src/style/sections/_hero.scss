@@ -48,6 +48,10 @@
     @include respond(phone-xs) {
       font-size: 2.8rem;
     }
+    &::selection {
+    background:white ;
+    color: #eb8988;
+    }
   }
 
   .hero-cta {
@@ -63,6 +67,10 @@
       @include respond(phone) {
         font-size: 2rem;
       }
+    }
+    &::selection {
+    background:white ;
+    color: #eb8988;
     }
   }
 
@@ -85,6 +93,10 @@
     }
     @include respond(phone-xs) {
       font-size: 2.0rem;
+    }
+    &::selection {
+    background:white ;
+    color: #eb8988;
     }
   }
 }
